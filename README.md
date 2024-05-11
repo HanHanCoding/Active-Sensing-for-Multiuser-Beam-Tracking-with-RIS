@@ -7,12 +7,12 @@ Required environments: python==3.6, tensorflow==1.15.0, numpy==1.19.2 (Also vali
 ## [For Training and Testing the Beam Tracking methods]
 Each folder corresponds to a beam tracking method.
 Please create two new folders named 'results_data'，'channel_data' wihtin each beam tracking method folder before training.
-# For training:
+### For training:
 For each beam tracking method, please run 'proposed_network.py' for training.
 After training phase, you will obtain the trained neural network parameters, which are saved in the folder named 'params' whithin each beam tracking method folder.
-# For testing:
+### For testing:
 To test the trained framework, please run the 'TestingPhase_Main.py' for each beam tracking method. (Notice, the testing results by running 'TestingPhase_Main.py' does not involves power allocation refinement.)
-To obtain the results with power allocation refinment, please run the 'Power Allocation Refinment.m' after you run the 'TestingPhase_Main.py' for each beam tracking method.
+To obtain the results with power allocation refinment, please run the 'Power Allocation Refinment.m' after you run the 'TestingPhase_Main.py' for each beam tracking method. (You may find the parallel pool feature of the MATLAB extremely useful :)).
 
 ## [For Training and Testing the Beam Tracking methods]
 
