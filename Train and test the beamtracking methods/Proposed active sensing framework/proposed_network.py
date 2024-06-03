@@ -47,7 +47,7 @@ Coefficient_pilot_overhead = (1 - pilots_duration_perFrame/frame_duration)
 # transmitting power and noise power in dBm
 Pt_up = 5 #dBm
 # we want to enlarge this term to make the network hard to estimate
-noise_power_db_up = -70 #dBm
+noise_power_db_up = -84 #dBm
 noise_power_linear_up = 10 ** ((noise_power_db_up - Pt_up + scale_factor) / 10)
 noise_sqrt_up = np.sqrt(noise_power_linear_up)
 SNR_test_indB_up = Pt_up - noise_power_db_up - scale_factor
@@ -75,7 +75,7 @@ batch_size_train_1block = 64
 
 #####################################################
 # for the LS estimator
-tau_w = 1000 # pilot length for LS
+tau_w = 10 # pilot length for LS
 
 ######################################################
 tf.reset_default_graph()  # Reseting the graph
