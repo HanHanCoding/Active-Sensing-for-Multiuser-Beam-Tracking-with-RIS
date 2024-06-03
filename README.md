@@ -7,7 +7,7 @@ Required environments: python==3.6, tensorflow==1.15.0, numpy==1.19.2 (Also vali
 ## [For Training and Testing the Beam Tracking methods]
 Each folder corresponds to a beam tracking method.
 
-Please create two new folders named 'results_data'，'channel_data' wihtin each beam tracking method folder before training.
+Please create two new empty folders named 'results_data'，'channel_data' wihtin each beam tracking method folder before training.
 
 ### For training:
 For each beam tracking method, please run 'proposed_network.py' for training.
@@ -23,7 +23,7 @@ To obtain the results with power allocation refinment, please run the 'Power All
 In visualizations, we test the beamtracking methods on the UE moving instances without take expectations over the channel fading and noise. We aim to show the performance of the beam tracking methods on each randomly generated UE moving instance.
 
 Please do visualizations following the procedure:
-1. Create three new folders named 'Generate_MatFile_forVisualization', 'results_data'，and 'channel_data' into each [visualization] folder.
+1. Create three new empty folders named 'Generate_MatFile_forVisualization', 'results_data'，and 'channel_data' into each [visualization] folder.
 2. Copy the 'params' folder after training the beam tracking methods into the corresponding [visualization] folder. Within each [visualization] folder:
 3. Run 'TestingPhase_Main.py' 
 4. Run ‘Power_Allocation_Refinement.m’
