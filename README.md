@@ -1,10 +1,10 @@
 # Active-Sensing-for-Multiuser-Beam-Tracking-with-RIS
 This repository contains the code for the paper "Active Sensing for Multiuser Beam Tracking with Reconfigurable Intelligent Surface"
 
-## [For Python codes]
+## [For Python Codes]
 Required environments: python==3.6, tensorflow==1.15.0, numpy==1.19.2 (Also valid: python==3.9, tensorflow==2.x)
 
-## [For Training and inference of the Beam Tracking methods]
+## [For Training and Inference Over the Different Beam Tracking Methods]
 Each folder corresponds to a beam tracking method.
 
 Please create two new empty folders named 'results_data'， and 'channel_data' within each beam tracking method folder before training.
